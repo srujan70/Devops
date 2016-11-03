@@ -5,7 +5,8 @@ license 'all_rights'
 description 'Installs/Configures webapp_linux'
 long_description 'Installs/Configures webapp_linux'
 version '0.1.0'
-depends 'httpd', '0.4.4'
+depends 'httpd', '~> 0.4.4'
+depends 'mysql', '~> 8.1.1'
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link
 # issues_url 'https://github.com/<insert_org_here>/webapp_linux/issues' if respond_to?(:issues_url)
